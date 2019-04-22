@@ -9,7 +9,8 @@ class ArticlesController extends Controller
 {
     
     function Articles(){
-     return view('layouts/Articles');
+        $posts = Post::all();
+        return view('layouts/Articles',['posts'=>$posts]);
         
     }
  
