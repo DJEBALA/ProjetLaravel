@@ -10,9 +10,9 @@ class HomeController extends Controller
 La fonction index nous permet 
 de récupérer la view welcome
 */
-function index()
-{
-  return view('welcome');
+function index(){       
+  $posts = Post::take(3)->skip(7)->get();
+  return view('welcome',['posts'=>$posts]);
 }
 
 }
