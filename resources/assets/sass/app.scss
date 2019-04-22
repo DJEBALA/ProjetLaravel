@@ -7,3 +7,43 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import url("https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+
+body {
+    background: rgb(63, 64, 65) !important;
+    
+  }
+
+  .items {
+
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: calc(100% + 2em);
+    margin: -2em 0 0 -2em;
+        margin-bottom: 0px;
+
+}
+.knockout {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 150px;
+    font-family: arial, helvetica;
+    width:800px;
+    margin: 50px auto;
+   
+  }
+  .imgm {
+    height: 250px;
+   width: 550px;
+  }

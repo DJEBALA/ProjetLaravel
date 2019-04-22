@@ -6,6 +6,7 @@
 </div>
 @endsection
 @section('content')
+<<<<<<< HEAD
 @foreach( $posts as $post)
 
 
@@ -19,4 +20,15 @@
 
  
  @endforeach
+=======
+<h1>Home</h1>
+@endsection
+
+
+@section('contentdiv')
+<div class="container knockout">
+<div>Bienvenue</div>
+<h1>Les nouveaux articles</h1>
+</div>
+>>>>>>> css
 @endsection
