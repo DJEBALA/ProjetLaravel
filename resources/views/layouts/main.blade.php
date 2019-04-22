@@ -24,19 +24,14 @@
 </div>
 </div>
 
-<<<<<<< HEAD
 <div class="  callout large primary text-center  ">
 @yield ('article')
 @yield('articlediv')
-=======
-
-
-
-
-<div class=" callout large primary text-center  ">
-@yield ('contentdiv')
->>>>>>> css
 </div>
+
+
+
+
 
 <div class="row medium-8 large-7 columns" >
 
