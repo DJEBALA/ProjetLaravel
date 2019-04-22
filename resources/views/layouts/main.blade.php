@@ -18,7 +18,7 @@
 <li class="">Blog</li>
 <li><a href="/Home">Home</a></li>
 <li><a href="/Articles">Article</a></li>
-<li><a href="/Contact">Contacte</a></li>
+<li><a href="/Contact">Contact</a></li>
 
 </ul>
 </div>
@@ -36,8 +36,13 @@
 <div class="row medium-8 large-7 columns" >
 
 @yield('content')
+@yield('content1')
 @yield('articleun')
 @yield('contact')
+</div>
+
+<div class="row">
+@yield('articletotale')
 </div>
 
 
