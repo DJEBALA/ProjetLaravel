@@ -37,7 +37,7 @@
 </div>
 
 
-@yield('articleun')
+
 
 <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
