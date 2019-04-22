@@ -14,6 +14,6 @@ Route::get('/', 'HomeController@index');
 Route::get('/Home', 'HomeController@index');
 Route::get('/Articles', 'ArticlesController@Articles');
 Route::get('/Contact', 'ContactController@Contact');
-
+Route::get('/Articles/{{$post->post_name}}', 'ArticlesController@Articles');
 
 Route::post('/Contact', 'ContactController@store');//
