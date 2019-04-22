@@ -12,16 +12,45 @@
 
 </div>
 
-<div class="navbar-fixed-top top-bar ">
-<div class="top-bar-left px-2">
-<ul class="menu">
-<li class="">Blog</li>
-<li><a href="/Home">Home</a></li>
-<li><a href="/Articles">Article</a></li>
-<li><a href="/Contact">Contacte</a></li>
+<nav class="navbar navbar-default navbar-static-top navbar-fixed-top top-bar">
+            <div class="container">
+        
+                <div class="container collapse navbar-collapse" id="app-navbar-collapse">
+               
 
-</ul>
-</div>
+                    <ul class=" navbar-left menu">
+                                    
+                          <li>Blog</li>
+                          <li><a href="/Home">Home</a></li>
+                          <li><a href="/Articles">Article</a></li>
+                          <li><a href="/Contact">Contacte</a></li>
+                          
+                         </ul>
+
+                        <!-- Right Side Of Navbar -->
+                    <ul class=" navbar-right menu ">
+                        <!-- Authentication Links -->
+                        @if (Auth::guest())
+                        
+                            <li><a href="{{ route('login') }}">Login</a></li>
+                            <li><a href="{{ route('register') }}">Register</a></li>
+                        @else
+              <ul class=" navbar-right menu ">
+                <li ><a href="#"  role="button" aria-expanded="false">{{ Auth::user()->name }}   </a>
+                <li><a href="{{ route('logout') }}"onclick="event.preventDefault();document.getElementById('logout-form').submit();"> Logout</a>
+                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                  {{ csrf_field() }}
+                              </form>        
+                                  
+                          
+                          </li>
+                      </ul>
+                  </li>
+              @endif
+          </ul>
+      </div>
+            </div>
+        </nav>
 </div>
 
 <div class="  callout large primary text-center  ">
