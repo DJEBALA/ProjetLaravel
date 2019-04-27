@@ -12,7 +12,7 @@
 
 </div>
 
-<nav class="navbar navbar-default navbar-static-top navbar-fixed-top top-bar">
+ <nav class="navbar navbar-default navbar-static-top navbar-fixed-top top-bar">
             <div class="container">
         
                 <div class="container collapse navbar-collapse" id="app-navbar-collapse">
