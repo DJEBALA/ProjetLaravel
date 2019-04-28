@@ -7,6 +7,8 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+<h3>Introduction </h3>
+<p> Dans le cadre de projet web, on a réaliser un blog d'articles qui permet de les consulter, voir les nouveaux articles et aussi créer un compte pour les utilisateur de blog </p>
 
 ## About Laravel
 
@@ -50,4 +52,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-je suis yahia
+
+##
