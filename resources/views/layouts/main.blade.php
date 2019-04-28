@@ -12,6 +12,7 @@
 
 </div>
 
+
  <nav class="navbar navbar-default navbar-static-top navbar-fixed-top top-bar">
             <div class="container">
         

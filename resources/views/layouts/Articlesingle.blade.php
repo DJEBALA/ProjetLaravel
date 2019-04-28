@@ -2,7 +2,7 @@
 @section('articleun')
 
 <div class=" container jumbotron ">
-    <h3 > {{$post->post_name}}  <small> Titre : {{$post->post_title}}  </small></h3>
+    <h3 > {{$post->post_name}}  <small> : {{$post->post_title}}  </small></h3>
     <div class="callout">
     <p>{{$post->post_content}}</p>
     </div>
