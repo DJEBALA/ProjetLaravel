@@ -14,7 +14,8 @@ class ContactController extends Controller
 
 
     public function Contact(){
-        return view('layouts/Contact');
+        $contact=Contact::all();
+        return view('layouts/Contact',['contact'=>$contact]);
     }
 
 

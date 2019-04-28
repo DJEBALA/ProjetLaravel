@@ -13,19 +13,6 @@
 </div>
 
 
-<<<<<<< HEAD
-<div class="navbar-fixed-top top-bar ">
-<div class="top-bar-left px-2">
-<ul class="menu">
-<li class="">Blog</li>
-<li><a href="/Home">Home</a></li>
-<li><a href="/Articles">Article</a></li>
-<li><a href="/Contact">Contact</a></li>
-
-</ul>
-</div>
-</div>
-=======
  <nav class="navbar navbar-default navbar-static-top navbar-fixed-top top-bar">
             <div class="container">
         
@@ -64,7 +51,6 @@
           </ul>
       </div>
             </div>
->>>>>>> 4555213c1ecbebc0fa508eaf634ed25ff3073647
         </nav>
 </div>
 
