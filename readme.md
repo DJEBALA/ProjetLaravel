@@ -52,8 +52,65 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+ 
 
-<<<<<<< HEAD
-##
-=======
->>>>>>> dee0e352731ba225f877551505cfbb84b60e40e4
+ ## Déscription de Projet
+ <p>Le Projet de création d’une application web avec le framework PHP Laravel rentre dans l'apprentissage de développement web coté serveur, on a développé un blog qui permet de consulter des articles et aussi un utilisateur peut créer son propre compte.</p>
+
+ ## Conditions d'utilisation
+ <p>Pour utiliser cette application, faut avoir les élements suivants:</p>
+ <ul>
+ <li>Version PHP  5.5.9 minimum</li>
+ <li>Configurer Laravel pour connecter avec SQlite</li>
+ <li>Composer</li>
+ <li>Git</li>
+ </ul>
+
+ ## Etapes d'installation 
+ <p>Pour utiliser l'application, faut suivre les étapes d'installation:</p>
+ 
+ <h4>Etape 1 : Installer l'apllication</h4>
+ <ul>
+ <li><p>- Ouvrez un terminal (cmd) et placez vous dans le répertoire ou vous voulez créer votre application.</p></li>
+ <li><p>- Excutez ces commandes: </p></li> 
+ <li><p>- git clone https://github.com/DJEBALA/ProjetLaravel.git</p></li>
+ <li><p>- composer install<p></li>
+ </ul>
+
+ <h4> Etape 2 : Configuration de fichier .env</h4>
+ <ul>
+ <li><p>- Configurer le fichier .env, ouvrez le dossier du projet dans un éditeur de texte.</p></li>
+  <li><p>Renommer le fichier ".env.example" par ".env"</p></li>
+  <li><p>- Executer la commande : php artisan key:generate, pour générer une cé de cryptage de l'application.</p></li>
+  <li><p>- Ouvrez le fichier .env et changer la ligne : DB_CONNECTION=mysql par DB_CONNECTION=sqlite et commenter les autres lignes par #<p></li>
+  </ul>  
+  <h4>Etape 3: Configuration de la BD</h4> 
+  <ul>
+  <li><p>- Créer un fichier database.sqlite dans le répertoire database</p></li>
+   <li><p>- Faire les Migration: dans le terminal exécuter cette commande  : php artisan migrate</p></li>
+   <li><p>Migration: dans le terminal exécuter cette commande : php artisan migrate:refresh --seed -v </p></li>
+   </ul>
+
+   <h4>Etape 4 : Testez l'application</li>
+   <ul>
+    <li><p>- Lancez le serveur : php artisan serve ,dans le terminal</p></li>
+    <li><p>- Ouvrez une page web et tapez URL : http://localhost:8000</p></li>
+    </ul>
+    </ul>
+    <h4>- Surfez sur l'application</h4>
+    <ul>
+    <li><p> Dans cette partie vous trouverez tous ce qu'on a implimenté et aussi pour tester  les fonctionnalités.</p></li>
+    <li><p> - Une fois le serveur lancé, insérez http://localhost:8000   dans la barre d'url, il s'agit de la page d'acceuil du projet.</p></li>
+    </ul>
+    <h4>Acceuil</h4>
+    <p> l'url de cette page home dans cette partie du site (home), on a une barre de navigation contenant les boutton suivant :
+    <ul>
+<li> Home : Page d'acceuil</li> 
+<li> Article : dirige vers la page Article où on peut trouver tous les articles</li>
+<li>Contacte </li>
+<li> Login et enregistrer </li>
+
+    
+
+
+
