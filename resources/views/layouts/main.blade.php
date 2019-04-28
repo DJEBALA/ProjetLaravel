@@ -1,4 +1,7 @@
 <!doctype html>
+<!--
+la view principale qui contient le squelete  
+-->
 <html class="no-js" lang="en">
 <head>
 <meta charset="utf-8" />

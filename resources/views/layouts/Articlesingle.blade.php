@@ -1,6 +1,10 @@
 @extends('layouts/main')
 @section('articleun')
 
+<!--
+la view Articlesingle permet d'afficher le contenu d'un article 
+-->
+
 <div class=" container jumbotron ">
     <h3 > {{$post->post_name}}  <small> : {{$post->post_title}}  </small></h3>
     <div class="callout">

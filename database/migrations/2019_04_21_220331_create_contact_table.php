@@ -11,6 +11,8 @@ class CreateContactTable extends Migration
      *
      * @return void
      */
+
+    // Création de la table contact  avec toutes ses colonnes
     public function up()
     {
         Schema::create('contact', function (Blueprint $table) {

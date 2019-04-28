@@ -7,6 +7,7 @@ use App\Contact;
 
 class ContactController extends Controller
 {
+    //la fonction construct permet l'authentification 
     public function __construct()
     {
         $this->middleware('auth');
@@ -14,12 +15,13 @@ class ContactController extends Controller
 
 
     public function Contact(){
+   // Renvoyer la view Contact et le contact dans un tableau
         $contact=Contact::all();
         return view('layouts/Contact',['contact'=>$contact]);
     }
 
 
-    /**Validation avrx request et enregistrement 
+    /**Validation avec request et enregistrement 
      *  la fonction teste la validité des informations :
      cas d’échec on renvoie le formulaire au client en l’informant des erreurs 
      en cas de réussite on envoie un message de confirmation au client .*/

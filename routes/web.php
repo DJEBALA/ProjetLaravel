@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+// ce fichier permet de créer des routes pour nos view 
 Route::get('/', 'HomeController@index');
 Route::get('/Home', 'HomeController@index');
 

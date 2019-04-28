@@ -11,6 +11,8 @@ class CreatePostsTable extends Migration
      *
      * @return void
      */
+
+    // Création de la table posts  avec toutes ses colonnes 
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {

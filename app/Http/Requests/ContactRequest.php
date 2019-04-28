@@ -23,14 +23,15 @@ class ContactRequest extends FormRequest
      */
 
 
+
     /**
        *rules retourne un tableau qui contient des clés qui correspondent
        *aux champs du formulaire et les règles de validation.
        **personnaliser les messages d’erreurs renvoyés avec la fonction rules()**
     **/
-
-    public function rules()
+   public function rules()
     {
+        
         return [
             'contact_name' => 'bail|required|between:1,20|alpha',
             'contact_email' => 'bail|required|email',

@@ -10,6 +10,9 @@ use Faker\Generator as Faker;
 | your application. Factories provide a convenient way to generate new
 | model instances for testing / seeding your application's database.
 |
+remplir la base de données avec 
+des fausses données en utilisant la librairy Faker.
+
 */
 $factory->define(App\Post::class, function (Faker $faker) {
     $users = App\User::pluck('id')->toArray();

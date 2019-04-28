@@ -1,5 +1,9 @@
 @extends('layouts/main')
 @section('articlediv')
+
+<!--
+la view welcome permet d'afficher le contenu de la page d'acceuil 
+-->
 <div class="knockout">
 <div>Bienvenue</div>
 <h1>Les trois derniers Articles</h1>

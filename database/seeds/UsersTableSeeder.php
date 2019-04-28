@@ -11,6 +11,8 @@ class UsersTableSeeder extends Seeder
      *
      * @return void
      */
+
+     //Remplir notre base de données avec 10 Articles
     public function run()
     {
         factory(App\User::class, 10)->create()->each(function ($user) {
