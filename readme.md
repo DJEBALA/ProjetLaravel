@@ -110,7 +110,10 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 <li>Contacte </li>
 <li> Login et enregistrer </li>
 
-    
+<h4>Afficher un Article<h4>
+<p> On peut afficher un article en cliquant sur le titre de l'article souhaité dans l'acceil ou dans la page article<p>
 
-
-
+<h4>Les Fonctionnalités</h4>
+<ul>
+   <li> Authentification </li>
+<p> pour s'authtifier faut cliquer sur le bouton "Login" en haut à droite de la page et remplir le formulaire, si un utilisateur n'a pas encore créer un compte, il suffit de cliquer sur le boutton "Enregistrer", un formulaire lui sera afficher pour créer son compte</p>
